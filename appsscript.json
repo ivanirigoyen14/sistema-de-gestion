@@ -1,0 +1,52 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Sheets",
+      "serviceId": "sheets",
+      "version": "v4"
+    }, {
+      "userSymbol": "AdminDirectory",
+      "serviceId": "admin",
+      "version": "directory_v1"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "Ingreso_prod",
+      "functionName": "Ingreso_prod"
+    }, {
+      "menuName": "Ingreso_cliente",
+      "functionName": "Ingreso_cliente"
+    }, {
+      "menuName": "InsertarProductoFactura",
+      "functionName": "InsertarProductoFactura"
+    }, {
+      "menuName": "EliminarProductoFactura",
+      "functionName": "EliminarProductoFactura"
+    }, {
+      "menuName": "Copiar nombre cliente",
+      "functionName": "Copiarnombrecliente"
+    }, {
+      "menuName": "Agregar producto factura",
+      "functionName": "Agregarproductofactura"
+    }, {
+      "menuName": "SumarEntrada",
+      "functionName": "SumarEntrada"
+    }, {
+      "menuName": "Cambiar color fila",
+      "functionName": "Cambiarcolorfila"
+    }, {
+      "menuName": "colorear",
+      "functionName": "colorear"
+    }, {
+      "menuName": "Borrar",
+      "functionName": "Borrar"
+    }, {
+      "menuName": "Prueba_pestania",
+      "functionName": "Prueba_pestania"
+    }]
+  }
+}
